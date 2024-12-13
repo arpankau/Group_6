@@ -4,6 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
+      <Text style={styles.aname}>Arpanpreet kaur</Text>
       <View style={styles.outbox}>
         <Text style={styles.name} >Gourab Podder</Text>
       </View>
@@ -15,19 +16,22 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: '#ff6347',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  aname:{
+    color:'#fff',
+    fontSize:39,
   },
   outbox: {
     backgroundColor: '#333',
     padding: 30,
-    borderRadius: 6
+    marginTop:20
   },
   name: {
     color: '#fff',
     fontWeight: 700,
     fontSize: 26
   }
-
 });
