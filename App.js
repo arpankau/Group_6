@@ -5,7 +5,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <View style={styles.outbox}>
-        <Text>Open up App.js to start working on ssyour app!</Text>
+        <Text style={styles.name} >Gourab Podder</Text>
       </View>
       <StatusBar style="auto" />
     </View>
@@ -18,5 +18,16 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  outbox: {
+    backgroundColor: '#333',
+    padding: 30,
+    borderRadius: 6
+  },
+  name: {
+    color: '#fff',
+    fontWeight: 700,
+    fontSize: 26
   }
+
 });
